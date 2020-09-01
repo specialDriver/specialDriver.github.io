@@ -1,0 +1,478 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="Lee">
+  <meta name="keywords" content="">
+  <title>茜言万雨-飞船 - Hexo</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+  
+
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_6peoq002giu.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.1.1"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>Fluid</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner intro-2" id="background" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container page-header text-center fade-in-up">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              
+  <div class="mt-3 post-meta">
+    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+    <time datetime="2020-09-01 19:33" pubdate>
+      2020年9月1日 晚上
+    </time>
+  </div>
+
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      1.3k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      13
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto" id="post">
+            <!-- SEO header -->
+            <h1 style="display: none">茜言万雨-飞船</h1>
+            
+            <div class="markdown-body" id="post-body">
+              <p>（一）</p>
+<p>张雨绮在大副卧室悠悠地醒了过来，伸了伸腿，没有踢到昨晚在耳边低语的女人，她没睁眼，只是拿长腿在床上扫了一圈，便确定万茜不在身边。</p>
+<p>床单上还残留着女人的气息，她偏着头在枕头上嗅了嗅，然后随手拍了一下床头播报机，小巧机器运转起来，传来李斯丹妮的每日播报：“今天是行程的第30天，距离目的地预计还剩70天，祝雨绮姐姐今天心情愉快，通信员————李斯derrr妮！”</p>
+<p>不愉快，张雨绮晕乎乎地坐了起来，心想如果语音能换成万茜就好了，但怎么样才能让一个大副乖乖地去播每日早安新闻，这是个问题，直到洗漱完毕出房门她也没有想出答案。</p>
+<p>飞船上大副和二副的卧室是安排在一套两室一厅，可她们俩自从在一起后就住在了同一间。张雨绮一出门就闻到了煎鸡蛋的香味，但没有见到万茜的身影，她在桌边发现了一张字条，上面落了几个飘逸的大字：霏霏生病了，我去看望，早饭记得吃。张雨绮鼓了鼓嘴，想着这个女人太迷人了，船上一大把迷妹，自己得有点危机感。她火速吃掉鸡蛋，将旁边的牛奶吨吨吨地喝完，翻箱倒柜地找出几罐保养品，三步并作两步地冲向了医务室。</p>
+<p>医务室里正一片莺莺燕燕，阿朵医生坐在沙发上支起脸看着一群妹妹嘻嘻哈哈，舰长宁静坐在沙发的另一侧，时不时地往旁边瞅几眼。孟佳坐在小板凳上抱着王霏霏的胳膊，当事人王霏霏躺在病床上，看上去脸色苍白，沈梦辰坐在床尾不知道说了什么，一群人笑得东倒西歪，万茜最为夸张，坐在床头柜上发出了杠铃般的笑声。</p>
+<p>于是张雨绮一进门看到的就是一个仿佛中了五百万彩票的万茜，可恶，王霏霏看着怎么那么像五百万。</p>
+<p>李斯丹妮第一个看到张雨绮，立刻迎上来接过她手上的礼物，嘴里还咋咋呼呼地问着：“雨绮姐姐，你不会刚起床吧？”</p>
+<p>张雨绮歪头瞟了一眼墙上的时钟，11:15，的确不早了，她用余光扎了万茜一刀，明明是一起滚了一夜床单的人，生物钟怎么像是差了一个时区。万茜脸上的笑容还挂在脸上，快乐的牡丹花看着女朋友驾到还没来得及迎接就被眼刀剐了一下，让她实在摸不着头脑。</p>
+<p>一阵寒暄，看穿一切的阿朵招呼张雨绮随便坐，大大咧咧的狮子座欣然应允，毫无顾忌地坐到了沙发正中间，故意挡住了宁静偷瞄的视线，她双手抱胸，和坐在不远处吃香蕉的金晨开始闲扯，为了不让视线往病床方向飘，她用尽全身力气认真地看着金晨嘴巴一张一合。金晨被她盯得心里有点发毛，掏了掏身边的小包，却发现没有多余的香蕉，只好哭丧着脸问：“雨绮姐，你要吃吗？要吃我给你去食堂拿一个”</p>
+<p>张雨绮摆了摆手，推说不爱吃，又接着开始滔滔不绝。一旁宁静用力想用眼神把张雨绮叉出沙发，可无奈这位平时情商极高的二副今天像吃了秤砣一样一动不动，宁静只好向后歪着头，隔空向阿朵发射出求救信号。</p>
+<p>阿朵静静地看了一眼静静的眼睛，这位静言静语十级学者立刻明白了宁静的意思。她不动声色地站起身来，走到病床边，笑盈盈地说：“霏霏，给你再检查一下，万茜姐姐，你要不就去沙发坐着，我把器材放床头方便。”</p>
+<p>万茜从善如流地站起身，飞快地坐到张雨绮旁边，手轻轻地抚上这只炸毛狮子的肩膀，有点示弱地把下巴搁在手背上。张雨绮偏了偏头，拿脑袋撞了她一下，没有再说什么，背倒是挺得更直了。</p>
+<p>虽然不知道为什么女朋友看上去有点生气，但哄好应该就没事了。万茜这样想着，嘴角悄悄地抿了抿，在张雨绮看不见的地方。</p>
+<p>以为哄好了女朋友的大副，晚上被锁在自己卧室门外进不去的时候，在门口哭笑不得，她走进张雨绮的房间，发现床上空空如也，连被子都被一并带走，颇有几分被洗劫一空的架势。</p>
+<p>狮子座真是招惹不得，她在心里笑出了声，在储物柜找出备用钥匙，打开了门。室内只有一台呼吸灯在工作，借着微弱的光线，万茜走到床边，看着已经熟睡的女人，轻轻地吻了一下她的额头。</p>
+<p>晚安，亲爱的。</p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/09/01/%E6%99%A8%E9%9B%A8-%E5%8D%B1%E9%99%A9%E5%85%B3%E7%B3%BB/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">晨雨落雁-危险关系</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2020/09/01/%E4%BD%B3%E6%99%A8-%E5%81%B6%E9%81%87/">
+                        <span class="hidden-mobile">佳减晨除-偶遇</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a>
+    </div>
+    
+
+    
+
+    
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: '#post-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "茜言万雨-飞船&nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 70,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
